@@ -1,0 +1,4 @@
+com\dmitryantipin\spring\mvc_hibernate_aop_security\dao\EmployeeDAOImplementation.class
+com\dmitryantipin\spring\mvc_hibernate_aop_security\dao\EmployeeDAO.class
+com\dmitryantipin\spring\mvc_hibernate_aop_security\controller\MyController.class
+com\dmitryantipin\spring\mvc_hibernate_aop_security\entity\Employee.class
