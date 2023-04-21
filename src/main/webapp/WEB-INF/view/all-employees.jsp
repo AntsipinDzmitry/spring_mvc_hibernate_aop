@@ -31,10 +31,10 @@
             <td>${emp.salary}</td>
             <td>
                 <input type="button" value="Update"
-                onclick="window.location.href = '${updateButton}'">
+                       onclick="window.location.href = '${updateButton}'">
 
                 <input type="button" value="Delete"
-                onclick="window.location.href = '${deleteButton}'">
+                       onclick="window.location.href = '${deleteButton}'">
             </td>
         </tr>
 
@@ -45,6 +45,7 @@
 <br>
 
 <input type="button" value="Add"
-    onclick="window.location.href = 'addNewEmployee'"/>
+       onclick="window.location.href = 'addNewEmployee'"/>
+
 </body>
 </html>

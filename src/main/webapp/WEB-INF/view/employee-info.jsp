@@ -4,6 +4,7 @@
 <body>
 
 <h2>Employee Info</h2>
+
 <br>
 
 <form:form action="saveEmployee" modelAttribute="employee">
@@ -20,15 +21,7 @@
     <br><br>
     <input type="submit" value="OK">
 
-
 </form:form>
 
-
-
 </body>
-
-
-
-
-
 </html>

@@ -9,9 +9,10 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 @Service
-public class EmployeeServiceImplementation implements EmployeeService{
+public class EmployeeServiceImplementation implements EmployeeService {
     @Autowired
     private EmployeeDAO employeeDAO;
+
     @Override
     @Transactional
     public List<Employee> getAllEmployees() {
