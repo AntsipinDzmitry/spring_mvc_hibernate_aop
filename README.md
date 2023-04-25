@@ -23,26 +23,21 @@ An application project with the creation of a database management with the imple
 * `Build tool` Maven
 * `Others` C3P0(Connection pool), Jakarta.servlet.jsp
 
+= About
 
-== Project Description
+*  since my front-end development skills do not yet allow me to create high-quality visual support for the project, my view looks something like this:
 
-* `basic` - Basic usage of Spring Data JDBC.
-* `immutables` - Showing Spring Data JDBC usage
- with https://immutables.github.io/[Immutables]
+<p align="center">
+      <img src="https://github.com/AntsipinDzmitry/spring_mvc_hibernate_aop/blob/master/.idea/Part1.gif" alt="Project Logo" width="620">
+</p>
 
-== Spring Data JPA
+*  I did not use spring boot in the project for a deeper dive into the practice of writing code and additional understanding of the internal processes of interaction between parts of the application
+*  the process of regulating and managing transactions is outsourced to a transaction manager
+*  to be able to scale the application and follow the best practices, the following application structure is built:
 
-* `eclipselink` - Sample project to show how to use Spring Data JPA with Spring Boot and https://www.eclipse.org/eclipselink/[Eclipselink].
-* `example` - Probably the project you want to have a look at first. Contains a variety of sample packages, showcasing the different levels at which you can use Spring Data JPA. Have a look at the `simple` package for the most basic setup.
-* `interceptors` - Example of how to enrich the repositories with AOP.
-* `jpa21` - Shows support for JPA 2.1 specific features (stored procedures support).
-* `multiple-datasources` - Examples of how to use Spring Data JPA with multiple `DataSource`s.
-* `query-by-example` - Example project showing usage of Query by Example with Spring Data JPA.
-* `security` - Example of how to integrate Spring Data JPA Repositories with Spring Security.
-* `showcase` - Refactoring show case of how to improve a plain-JPA-based persistence layer by using Spring Data JPA (read: removing close to all of the implementation code). Follow the `demo.txt` file for detailed instructions.
-* `vavr` - Shows the support of https://www.vavr.io[Vavr] collection types as return types for query methods.
+<p align="center">
+      <img src="https://github.com/AntsipinDzmitry/spring_mvc_hibernate_aop/blob/master/.idea/Part2.png" alt="Project Logo" width="620">
+</p>
 
-== Spring Data LDAP
-
-* `example` - Sample for Spring Data repositories to access an LDAP store.
-
+*  in the project I use the service class that implements the business logic and serves as an intermediary between the controller and the DAO
+*  as AOP added "around"  aspect to implement the separation of auxiliary and business logic in the application to avoid "Code tangling" and "Code scattering"
