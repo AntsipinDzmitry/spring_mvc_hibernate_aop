@@ -1,3 +1,7 @@
+<p align="center">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8dZYIID1DTJgWP4lnQRx7Zx_S3cQmbPwdGw&usqp=CAU" alt="Project Logo" width="726">
+</p>
+
 = Spring_МVC_Hibernate_AOP
 
 
