@@ -2,18 +2,18 @@
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8dZYIID1DTJgWP4lnQRx7Zx_S3cQmbPwdGw&usqp=CAU" alt="Project Logo" width="726">
 </p>
 
-= Spring_МVC_Hibernate_AOP
+## Spring_МVC_Hibernate_AOP
 
 
 An application project with the creation of a database management with the implementation of all CRUD-operations on all table members from the database.
 
-== The main goals of the project:
+## The main goals of the project:
 
 *  Practice of creating a basic application with the ability to scale it further if desired.
 * Deepening the understanding of the functioning of the spring application, its configuration and administration.
 * Studying possible options for implementing an application using "the best practice"
 
-== Frameworks and tools
+## Frameworks and tools
 
 * `IDE`: IntelliJ IDEA 2022.3.2 with JDK19
 * `Backend`: Spring MVC 6.0.6  Hibernate 6.2.0 (Configured by XML-File + annotations)
@@ -23,7 +23,7 @@ An application project with the creation of a database management with the imple
 * `Build tool` Maven
 * `Others` C3P0(Connection pool), Jakarta.servlet.jsp
 
-= About
+## About
 
 *  since my front-end development skills do not yet allow me to create high-quality visual support for the project, my view looks something like this:
 
